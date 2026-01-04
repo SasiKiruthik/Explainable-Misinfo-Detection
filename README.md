@@ -1,16 +1,16 @@
-1.About the Project
+About the Project
 
 This project implements the IEEE research paper “Explainable Misinformation Detection Across Multiple Social Media Platforms”.
 The objective is to build a generalized and explainable misinformation detection system that can effectively identify fake or misleading information across different social media platforms.
 
 Traditional misinformation detection models are often trained on a single platform and fail to generalize due to domain shift. Additionally, most deep learning models lack interpretability, reducing user trust. This project addresses both challenges using domain adaptation and explainable AI.
 
-2.Core Idea:
+🧠 Core Idea
 
 The system is based on a Domain Adversarial Neural Network (DANN) that learns domain-invariant textual features, enabling cross-platform generalization.
 To improve transparency and trust, LIME (Local Interpretable Model-Agnostic Explanations) is integrated to provide word-level explanations for each prediction.
 
-3.Architecture Overview
+🏗️ Architecture Overview
 
 Input Data:
 
@@ -24,7 +24,7 @@ Tokenization, stop-word removal, lemmatization, and noise removal
 Text Representation:
 GloVe word embeddings
 
-4.Model:
+Model:
 
 Feature Extractor
 
@@ -35,7 +35,7 @@ Domain Classifier with Gradient Reversal Layer
 Explainability:
 LIME generates human-understandable explanations for predictions
 
-5.Key Objectives
+🎯 Key Objectives
 
 Detect misinformation across multiple social media platforms
 
@@ -47,7 +47,7 @@ Provide explainable and interpretable predictions
 
 Improve trust in misinformation detection systems
 
-6.Technologies Used
+🛠️ Technologies Used
 
 Python
 
@@ -65,7 +65,7 @@ Jupyter Notebook
 
 Git & GitHub
 
-7.Evaluation Metrics
+📊 Evaluation Metrics
 
 Accuracy
 
@@ -77,7 +77,8 @@ F1-Score
 
 AUC-ROC
 
-8.Reference
+📚 Reference
+
 Gargi Joshi et al.,
 “Explainable Misinformation Detection Across Multiple Social Media Platforms”,
 IEEE Access, 2023.
