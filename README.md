@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 About the Project
 
 This project implements the IEEE research paper “Explainable Misinformation Detection Across Multiple Social Media Platforms”.
@@ -361,3 +362,6 @@ For questions or issues, please open an issue on the repository.
 - LIME: Marco Tulio Ribeiro et al.
 
 >>>>>>> 4f21f3f (Initial commit)
+=======
+
+>>>>>>> 318f97755abf2935ed2bf073d593e98278bc4452
